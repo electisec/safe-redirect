@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const newUrl = `https://yaudit.dev${pathname}`;
+      const newUrl = `https://safe.yaudit.dev${pathname}`;
       window.location.href = newUrl;
     }
   }, [pathname]);

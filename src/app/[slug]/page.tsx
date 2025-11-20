@@ -10,7 +10,7 @@ export default function RedirectPage() {
     if (typeof window !== "undefined") {
       const slug = pathname;
       if (!slug) return;
-      window.location.href = `https://yaudit.dev${slug}`;
+      window.location.href = `https://safe.yaudit.dev${slug}`;
     }
   }, [pathname]);
 
